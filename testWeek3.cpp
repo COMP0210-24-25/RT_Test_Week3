@@ -148,7 +148,7 @@ TEST_CASE("Test width/height", "[Test Camera]")
 TEST_CASE("Test Vector Norm", "[Test Vector]")
 {
     using namespace VecUtils;
-    REQUIRE_THROWS(norm({0,0,0}));
+    REQUIRE_THROWS(norm(Vec3{0,0,0}));
 }
 
 TEST_CASE("Test Object Pointer", "[Test Pointer]")
